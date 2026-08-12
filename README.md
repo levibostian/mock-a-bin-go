@@ -6,6 +6,9 @@ Have a Go program or test that shells out to binary commands? Want to test it by
 mocking those commands instead of the real tools? This library lets you mock any
 executable binary by injecting a mock script into your PATH.
 
+> [!IMPORTANT]  
+> I have not tested the code myself, just rely on automated tests for validation. Just had it written to use in the future. Since I have not tried it in a project, the API might not be ideal and breaking changes may be introduced in future versions. 
+
 ## Install
 
 ```sh
